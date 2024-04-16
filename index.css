@@ -981,6 +981,11 @@ body .text:hover + .images {
     scrollbar-width: none;  /* Firefox */
 }
 
+#commissions::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 .board-com {
     top: 5%;
     right: 0;
