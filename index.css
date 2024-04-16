@@ -1002,6 +1002,13 @@ body .text:hover + .images {
     overflow-y: scroll;
     margin-top: 5%;
     background-color: #000;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.container-com::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 .collapsible {
