@@ -1194,6 +1194,12 @@ footer a:hover {
         height: 80vh;
     }
 
+    #Tab1, #Tab2::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
+        display: none;
+    }
+
     #Tab3 {
         width: 90vw;
         height: 100%;
@@ -1217,6 +1223,12 @@ footer a:hover {
         padding: 1%;
         overflow-y: auto;
         height: fit-content;
+    }
+
+    .container::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
+        display: none;
     }
 
     #container1 {
