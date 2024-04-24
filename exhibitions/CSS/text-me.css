@@ -269,6 +269,10 @@ section {
     background-color: transparent;
     overflow-y: hidden;
 }
+
+.container::-webkit-scrollbar {
+  display: none;
+}
   
 @keyframes fadeEffect {
     from {opacity: 0;}
