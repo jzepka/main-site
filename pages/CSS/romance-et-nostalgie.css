@@ -906,6 +906,7 @@ footer a:hover {
     .tabcontent::-webkit-scrollbar {
         width: 0px;
         background: transparent; /* make scrollbar transparent */
+        display: none;
     }
     
     
