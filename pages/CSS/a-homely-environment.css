@@ -269,6 +269,10 @@ section {
     background-color: transparent;
     overflow-y: hidden;
 }
+
+.container::-webkit-scrollbar {
+  display: none;
+}
   
 @keyframes fadeEffect {
     from {opacity: 0;}
@@ -907,6 +911,10 @@ footer a:hover {
         padding: 1%;
         overflow-y: auto;
         height: fit-content;
+    }
+
+    .container::-webkit-scrollbar {
+      display: none;
     }
 
     #container1 {
