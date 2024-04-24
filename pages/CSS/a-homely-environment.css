@@ -1139,7 +1139,7 @@ footer a:hover {
         line-height: 1.1vw;
         position: fixed;
         left: 0;
-        top: 16vh;
+        top: 12vh;
     }
 
     #tab3 {
@@ -1155,7 +1155,7 @@ footer a:hover {
     }
     
     .tab button p {
-        font-size: 3vw;
+        font-size: 4vw;
         margin-left: 5%;
     }
     
@@ -1178,21 +1178,22 @@ footer a:hover {
         margin: auto;
         height: 100%;
         width: 90vw;
-        overflow-y: auto;
     }
 
     #Tab1, #Tab2 {
         width: 90vw;
         overflow-y: auto;
-        transform: translateY(30vh);
-        height: 60vh;
+        margin-top: 23vh;
+        height: 80vh;
     }
 
     #Tab3 {
-        width: 100%;
-        height: 70vh;
-        overflow: hidden;
-        transform: translateY(30vh);
+        width: 90vw;
+        height: 100%;
+        margin-top: 23vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .tabcontent::-webkit-scrollbar {
@@ -1218,8 +1219,8 @@ footer a:hover {
     /* TAB 1 */
 
     .main-text {
-        font-size: 2.5vw;
-        line-height: 2.6vw;
+        font-size: 3.6vw;
+        line-height: 4vw;
         opacity: 0.9;
         margin: auto;
         width: 98%;
@@ -1228,8 +1229,8 @@ footer a:hover {
     }
 
     .main-text a {
-        font-size: 2.5vw;
-        line-height: 2.6vw;
+        font-size: 3.6vw;
+        line-height: 4vw;
     }
 
     .col {
@@ -1273,13 +1274,14 @@ footer a:hover {
         scrollbar-width: none;  /* Firefox */
         margin-top: 0;
         cursor: ns-resize;
-        margin-bottom: 8vh;
+        margin-bottom: 15vh;
     }
 
     .pic {
         height: fit-content;
         width: 90vw;
         object-fit: contain;
+        overflow-y: hidden;
     }
 
     .pic > img {
@@ -1305,24 +1307,22 @@ footer a:hover {
     /* TAB 3 */
 
     #container3 {
+        height: 80%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: 5%;
     }
 
     .video {
-        width: 100vw;
+        width: 100%;
         height: 100%;
-        display: flex;
-        align-items: center;
-        margin: auto;
-        margin-left: 5%;
     }
 
     iframe {
         padding-top: 0;
-        display: flex;
-        justify-content: center;
+        margin: auto;
     }
 
         /* FOOTER */
