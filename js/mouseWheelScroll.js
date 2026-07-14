@@ -1,8 +1,25 @@
-const horizontalScrollSections = document.querySelectorAll('.horizontal-scroll-wrapper');
+window.onload = () => {
+        document.onwheel = customScrollFunction;
 
-horizontalScrollSections.forEach(section => {
-    section.addEventListener('wheel', (event) => {
-        event.preventDefault();
-        section.scrollLeft += event.deltaY;
-    });
-});
+        function customScrollFunction(event){
+
+    let deltaY = event.deltaY;
+    let deltaYSign = Math.sign(deltaY);
+
+    if(deltaYSign==-1){
+        document.querySelector(".horizontal-scroll-wrapper").scrollBy({
+            top: 0,
+            left: -169,
+            behavior: 'smooth'
+          });
+
+    }else{ 
+        document.querySelector(".horizontal-scroll-wrapper").scrollBy({
+            top: 0,
+            left: 169,
+            behavior: 'smooth'
+        });
+    }
+
+}
+      }
