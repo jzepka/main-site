@@ -5,6 +5,6 @@ var imgState = 0;
 var imgTag = document.getElementById("imgClickAndChange");
 
 imgTag.addEventListener("click", function (event) {
-  imgState = (++imgState % 14);
+  imgState = (++imgState % 5);
   event.target.src = images[imgState];
 });
