@@ -855,8 +855,6 @@ body .text:hover + .images {
     top: 8%;
 }
 
-
-
 /* LIST */
 
 #projects-list {
@@ -4438,7 +4436,7 @@ footer a:hover {
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
-        width: 75%;
+        width: 95%;
         height: fit-content;
         z-index: 2;
         display: flex;
@@ -5856,7 +5854,6 @@ footer a:hover {
         width: 100%;
     }
 
-
     /* PROJECTS */
 
     /* APERÇU */
@@ -6590,7 +6587,7 @@ footer a:hover {
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
-        width: 75%;
+        width: 95%;
         height: fit-content;
         z-index: 2;
         display: flex;
@@ -6911,9 +6908,7 @@ footer a:hover {
         font-size: 1vw;
         line-height: 1.5vw;
     }
-
 }
-
 
 /* TABLET */
 
