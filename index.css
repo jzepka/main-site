@@ -6550,11 +6550,11 @@ footer a:hover {
     #info {
         overflow-y: scroll !important;
         min-height: 100vh;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
     #info .container {
-        height: fit-content;
+        height: fit-content !important;
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
@@ -6567,10 +6567,10 @@ footer a:hover {
 
     .bio2 {
         width: 90vw;
-        height: fit-content;
+        height: fit-content !important;
         position: relative;
-        top: 10%;
-        padding: 10% 5% 1% 5%;
+        /*top: 10%;*/
+        padding: 5% 5% 1% 5%;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
     }
 
@@ -6585,11 +6585,12 @@ footer a:hover {
 
     .cv-container {
         position: relative;
-        top: 0;
+        /*top: 0;*/
         right: 0;
         padding: 5% 0 25% 3%;
+        margin-top: 15%;
         width: 95%;
-        height: fit-content;
+        height: fit-content !important;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -6598,7 +6599,7 @@ footer a:hover {
 
     .cv {
         width: 100%;
-        height: fit-content;
+        height: fit-content !important;
     }
 
     .cv-text {
