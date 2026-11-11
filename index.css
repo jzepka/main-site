@@ -2248,7 +2248,7 @@ footer a:hover {
     }
 
     #info .container {
-        height: fit-content;
+        height: fit-content !important;
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
@@ -2261,8 +2261,8 @@ footer a:hover {
 
     .bio2 {
         width: 90vw;
-        height: fit-content;
-        position: relative;
+        height: fit-content !important;
+        position: relative !important;
         top: 10%;
         padding: 0 5% 1% 5%;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -2278,12 +2278,12 @@ footer a:hover {
     }
 
     .cv-container {
-        position: relative;
+        position: relative !important;
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
         width: 75%;
-        height: fit-content;
+        height: fit-content !important;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -2292,7 +2292,7 @@ footer a:hover {
 
     .cv {
         width: 100%;
-        height: fit-content;
+        height: fit-content !important;
     }
 
     .cv-text {
@@ -3336,7 +3336,7 @@ footer a:hover {
     }
 
     #info .container {
-        height: fit-content;
+        height: fit-content !important;
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
@@ -3349,8 +3349,8 @@ footer a:hover {
 
     .bio2 {
         width: 90vw;
-        height: fit-content;
-        position: relative;
+        height: fit-content !important;
+        position: relative !important;
         top: 10%;
         padding: 0 5% 1% 5%;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -3366,12 +3366,12 @@ footer a:hover {
     }
 
     .cv-container {
-        position: relative;
+        position: relative !important;
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
         width: 75%;
-        height: fit-content;
+        height: fit-content !important;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -3380,7 +3380,7 @@ footer a:hover {
 
     .cv {
         width: 100%;
-        height: fit-content;
+        height: fit-content !important;
     }
 
     .cv-text {
@@ -4402,11 +4402,10 @@ footer a:hover {
     }
 
     #info .container {
-        height: fit-content;
+        height: fit-content !important;
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
-        height: fit-content !important;
     }
 
     #info::-webkit-scrollbar {
@@ -4417,7 +4416,7 @@ footer a:hover {
     .bio2 {
         width: 90vw;
         height: fit-content !important;
-        position: relative;
+        position: relative !important;
         /*top: 10%;*/
         padding: 10% 5% 1% 5%;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -4433,7 +4432,7 @@ footer a:hover {
     }
 
     .cv-container {
-        position: relative;
+        position: relative !important;
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
@@ -5490,7 +5489,7 @@ footer a:hover {
     }
 
     #info .container {
-        height: fit-content;
+        height: fit-content !important;
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
@@ -5503,8 +5502,8 @@ footer a:hover {
 
     .bio2 {
         width: 90vw;
-        height: fit-content;
-        position: relative;
+        height: fit-content !important;
+        position: relative !important;
         top: 10%;
         padding: 0 5% 1% 5%;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -5520,12 +5519,12 @@ footer a:hover {
     }
 
     .cv-container {
-        position: relative;
+        position: relative !important;
         top: 0;
         right: 0;
         padding: 5% 0 25% 3%;
         width: 75%;
-        height: fit-content;
+        height: fit-content !important;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -5534,7 +5533,7 @@ footer a:hover {
 
     .cv {
         width: 100%;
-        height: fit-content;
+        height: fit-content !important;
     }
 
     .cv-text {
@@ -6568,7 +6567,7 @@ footer a:hover {
     .bio2 {
         width: 90vw;
         height: fit-content !important;
-        position: relative;
+        position: relative !important;
         /*top: 10%;*/
         padding: 5%;
         top: 0 !important;
@@ -6585,7 +6584,7 @@ footer a:hover {
     }
 
     .cv-container {
-        position: relative;
+        position: relative !important;
         /*top: 0;*/
         right: 0;
         padding: 5% 0 25% 3%;
