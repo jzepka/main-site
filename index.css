@@ -6549,7 +6549,7 @@ footer a:hover {
 
     #info {
         overflow-y: scroll !important;
-        min-height: 100vh;
+        /*min-height: 100vh;*/
         margin-top: 5%;
     }
 
@@ -6570,7 +6570,8 @@ footer a:hover {
         height: fit-content !important;
         position: relative;
         /*top: 10%;*/
-        padding: 5% 5% 1% 5%;
+        padding: 5%;
+        top: 0 !important;
         -ms-overflow-style: none; /* for Internet Explorer, Edge */
     }
 
@@ -6631,7 +6632,7 @@ footer a:hover {
         height: 100px;
         position: relative;
         left: 5%;
-        margin-top: 20%;
+        /*margin-top: 20%;*/
     }
     
     .symbol-alt p{
