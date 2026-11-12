@@ -3564,6 +3564,7 @@ footer a:hover {
     .langue {
         top: 1.5%;
         right: 2%;
+        z-index: 9999;
     }
 
     .langue p {
@@ -5718,6 +5719,7 @@ footer a:hover {
     .langue {
         top: 1.5%;
         right: 2%;
+        z-index: 9999;
     }
 
     .langue p {
