@@ -1327,7 +1327,8 @@ footer a:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 58%;
+        gap: 20px;
+        width: fit-content;
         height: fit-content;
         position: absolute;
         top: 1vh;
@@ -3482,7 +3483,8 @@ footer a:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 58%;
+        gap: 40px;
+        width: fit-content;
         height: 80px;
         position: absolute;
         top: 8px;
@@ -5635,7 +5637,8 @@ footer a:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 58%;
+        gap: 40px;
+        width: fit-content;
         height: 80px;
         position: absolute;
         top: 8px;
