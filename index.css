@@ -51,7 +51,35 @@ a:hover {
     text-decoration: none;
 }
 
-/* HEADER */
+* GREVE */
+
+.bg-greve {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.bg-greve p {
+    font-family: Sneaky;
+    color: white;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.symbol-greve p {
+    font-family: Sneaky;
+    font-weight: 100;
+    font-size: 10vw;
+    line-height: 10vw;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.symbol-greve {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
 
 /* HEADER */
   
